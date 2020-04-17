@@ -1,0 +1,94 @@
+
+############################################
+### Configuration files for HiSIF
+### Please don't have blank before equal sign or after equal sign
+### Please change the parameters if necessary
+############################################
+
+############################################
+### Path for samtools, HiSIF
+############################################
+
+SAMTOOLS=/bin/samtools
+HISIF=/biotools/hisif_v1.00
+
+############################################
+### Path for input aligned paired BAM file, output path and sample name
+############################################
+HICPROBAMPATH=/hicpro/output/bowtie_results/bwt2/hesc
+BAMPATH=
+BAMFILE=
+OUTPUT=/hisif/hesc/output
+SAMPLE=hESC
+
+############################################
+### Need Preprocessing? True or False
+############################################
+
+PREPROCESSING=True
+
+############################################
+### Path for reference genome
+############################################
+
+REFERENCE_GENOME=/genome/hg19
+
+############################################
+### Genome enzyme cutting sites fragments
+############################################
+
+CUTTING_FRAGMENTS=hg19.HindIII.bed
+
+############################################
+### Enzyme digested fragments
+############################################
+
+READ_LENGTH=50
+CUTTING_SITE_EXTENT=500
+BIN_SIZE=20000
+
+############################################
+### Output fragment size, normally is the resolution
+############################################
+
+FRAGMENT_SIZE=20000
+
+############################################
+### SIF threshold value: 1, 2, 3, 4, 5
+############################################
+
+THRESHOLD_FIRST=1
+THRESHOLD_LAST=5
+
+############################################
+### Percentage of dataset for bootstrapping
+############################################
+
+PERCENTAGE=0.1
+
+############################################
+### Poisson mixture model parameters
+############################################
+
+POISSON_MIXTURE1=1
+POISSON_MIXTURE2=29
+
+############################################
+### Bootstrapping iterations
+############################################
+
+ITERATIONS=2
+
+############################################
+### Limit number of child processes used, 0: no limt
+############################################
+
+CHILD_PROCESSES=0
+
+############################################
+### Run log file name
+############################################
+
+LOGFILE=runhisif.log
+
+############################################
