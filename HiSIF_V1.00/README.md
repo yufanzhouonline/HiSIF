@@ -8,6 +8,13 @@ to extract fit parameters of the CTS interactions. A small C tool is provided to
 supports all of the available three Hi-C protocols (Hi-C, TCC and in situ Hi-C). The tool is named from the fact that it is
 designed to find the significant interactions from a given sample of Hi-C reads.
 
+## Citation: ##
+Please cite our paper when you use this tool:
+
+Zhou, Y., Cheng, X., Yang, Y., Li, T., Li, J., Huang, T.H., Jin, V.X. (2020) Genome-wide chromatin interactions identify characteristic promoter-distal loops. Genome Medicine. Aug 12;12:69. https://doi.org/10.1186/s13073-020-00769-8
+
+Thank you.
+
 ## System Requirements: ##
 Operating System: Linux/Unix
 Cores: at least 32
@@ -96,7 +103,7 @@ This method assumes mapping with bowtie2 or a similar tool has been done.
 
 Using the SAM/BAM files from the mapping, transfer them to 6-column text file:
 
-chr1	pos1	strand1	chr2	pos2	pos2
+chr1		pos1		strand1		chr2		pos2		strand2
 
 Please note strand is 1 for positive strand and 0 for negative strand.
 Each chromosome need only the number and chrX is 23 and chrY is 24.
