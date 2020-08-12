@@ -10,6 +10,7 @@ designed to find the significant interactions from a given sample of Hi-C reads.
 
 ## Citation: ##
 Please cite our paper when you use this tool:
+
 Zhou, Y., Cheng, X., Yang, Y., Li, T., Li, J., Huang, T.H., Jin, V.X. (2020) Genome-wide chromatin interactions identify characteristic promoter-distal loops. Genome Medicine. Aug 12;12:69. https://doi.org/10.1186/s13073-020-00769-8
 
 Thank you.
