@@ -96,7 +96,7 @@ This method assumes mapping with bowtie2 or a similar tool has been done.
 
 Using the SAM/BAM files from the mapping, transfer them to 6-column text file:
 
-chr1	pos1	strand1	chr2	pos2	strand2
+chr1		pos1		strand1		chr2		pos2		strand2
 
 Please note strand is 1 for positive strand and 0 for negative strand.
 Each chromosome need only the number and chrX is 23 and chrY is 24.
