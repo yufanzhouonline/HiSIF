@@ -113,7 +113,7 @@ Note that with very large output files, the 'proc' executble will fork for
 each file. It is suggested to split this file into 10 files, to speedup pre-processing.
 
 ## Creating the chr-by-chr files ##
-Before using the 'proc' program, is is suggested to split up the text file into
+Before using the 'proc' program, it is suggested to split up the text file into
 many different files (at least 10), using 'split -l'.
 
 The file prefixes when finished are: chr1.tmp chr2.tmp ... chrX.tmp
