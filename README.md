@@ -185,3 +185,8 @@ Error: could not read the first line
 
 This is the system reminding of reading some sub-directories in the reference genome,  which does not affect
 successfully performing.
+
+3. Error of “Segmentation fault”:
+
+IF too many reads overburden the memory, the segmentation fault error will occur. Please run HiSIF with chromosomes individually to reduce the memory requirements.
+
