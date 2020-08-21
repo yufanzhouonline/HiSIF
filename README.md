@@ -53,11 +53,11 @@ the cost of performance.
 ## Quick Start ##
    
    After configuration file config_hisif.txt is changed as necessary, perform the following:
+   -------------------------------------------
+   	chmod 755 runhisif.sh
    
-   chmod 755 runhisif.sh
-   
-   ./runhisif.sh config_hisif.txt
-   
+	./runhisif.sh config_hisif.txt
+   -------------------------------------------
    Configuration file config_hisif.txt including:
    
 ------------------------------------------------------   
