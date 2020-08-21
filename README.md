@@ -138,21 +138,21 @@ HiSIF [options] <inputDirectory>
 
 All results are prefixed with (SAMPLE)_t(THRESHOLD)_, threshold could be 1, 1.5, 2, 2.5, 3 and so on.
 
-(SAMPLE)_t(THRESHOLD)_peak.txt: the significant interaction fragments with columns:
+	(SAMPLE)_t(THRESHOLD)_peak.txt: the significant interaction fragments with columns:
 
-        chr1    start1  end1    chr2    start2  end2    counts  FDR
+		chr1    start1  end1    chr2    start2  end2    counts  FDR
 
-This is the major result, normally users only need this result for the subsequent analysis.
+		This is the major result, normally users only need this result for the subsequent analysis.
 
-(SAMPLE)_t(THRESHOLD)_BootStrapping.txt: system parameters for boot strapping
+	(SAMPLE)_t(THRESHOLD)_BootStrapping.txt: system parameters for boot strapping
 
-(SAMPLE)_t(THRESHOLD)_maxIteration.txt: system parameters for iteration
+	(SAMPLE)_t(THRESHOLD)_maxIteration.txt: system parameters for iteration
 
-(SAMPLE)_t(THRESHOLD)_PerChr.txt: number of enzyme cutting fragment for each chromosome
+	(SAMPLE)_t(THRESHOLD)_PerChr.txt: number of enzyme cutting fragment for each chromosome
 
-(SAMPLE)_t(THRESHOLD)_randomDis.txt: random distribution of sequencing reads
+	(SAMPLE)_t(THRESHOLD)_randomDis.txt: random distribution of sequencing reads
 
-(SAMPLE)_t(THRESHOLD)_randomDisProb.txt: random distribution probability of sequencing reads
+	(SAMPLE)_t(THRESHOLD)_randomDisProb.txt: random distribution probability of sequencing reads
 
 ## Troubleshooting ##
 
