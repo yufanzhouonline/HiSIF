@@ -77,7 +77,7 @@ Hard Disk Space: >100GB (more as datasets get larger)
    
    Or refer to the following introduction.
    
-   *There are two steps to using HiSIF: pre-processing, and running HiSIF.*
+   *There are two steps to use HiSIF: pre-processing, and running HiSIF.*
 
 ## Pre-Processing ##
 This method assumes mapping with bowtie2 or a similar tool has been done.
