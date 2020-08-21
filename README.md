@@ -50,9 +50,7 @@ the cost of performance.
 		1) proc - used for preprocessing of data
 		2) HiSIF - binary for algorithm
 
-## Run HiSIF: ##
-
-   Quick start:
+## Quick Start ##
    
    After configuration file config_hisif.txt is changed as necessary, perform the following:
    
@@ -89,7 +87,7 @@ the cost of performance.
    
    
    
-   Customized running:
+## Customized Running ##
    
    The running could be customized by user referring to the provided Linux
    shell file runhisif.sh
