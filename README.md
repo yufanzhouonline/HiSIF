@@ -32,7 +32,7 @@ Hard Disk Space: >100GB (more as datasets get larger)
 
    Simply download the .zip of this project, cd into the unzipped directory, and type make.
 
-	This will create 2 executables in the bin directory:
+   This will create 2 executables in the bin directory:
 		1) proc - used for preprocessing of data
 		2) HiSIF - binary for algorithm
 
@@ -40,12 +40,12 @@ Hard Disk Space: >100GB (more as datasets get larger)
 
    After configuration file config_hisif.txt is changed as necessary, perform the following:
    
-   	chmod 755 runhisif.sh
-   	./runhisif.sh config_hisif.txt
+	chmod 755 runhisif.sh
+	./runhisif.sh config_hisif.txt
 	
    Configuration file config_hisif.txt including:
    
-------------------------------------------------------   
+  
 	SAMTOOLS: path for samtools
 	HISIF: path for HiSIF
 	HICPROBAMPATH: the bam file path from HiC-Pro output, leave it empty when HiC-Pro output is not used.
@@ -68,8 +68,6 @@ Hard Disk Space: >100GB (more as datasets get larger)
 	ITERATIONS: Bootstrapping iterations, default 2
 	CHILD_PROCESSES: Limit number of child processes used, default 0 (no limt)
 	LOGFILE: the log file name, default runhisif.log
-------------------------------------------------------   
-   
    
    
 ## Customized Running ##
