@@ -21,7 +21,7 @@ Cores: at least 32
 RAM: 32GB minimum (will not be able to run in-situ)
 Hard Disk Space: >100GB (more as datasets get larger)
 
-# Pipeline Overview #
+## Pipeline Overview ##
 1) Map using bowtie2 or similar software
 2) convert the BAM file format to a 6-column file format
 3) use 'split -l' to split the produced file into many for parallelization
