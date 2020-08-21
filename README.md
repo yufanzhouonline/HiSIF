@@ -79,7 +79,7 @@ Hard Disk Space: >100GB (more as datasets get larger)
    
    *There are two steps to use HiSIF: pre-processing, and running HiSIF.*
 
-## Pre-Processing ##
+### Pre-Processing ###
 This method assumes mapping with bowtie2 or a similar tool has been done.
 
 Using the SAM/BAM files from the mapping, transfer them to 6-column text file:
@@ -93,7 +93,7 @@ That means chr1/chr2 must be 1-24.
 Note that with very large output files, the 'proc' executble will fork for
 each file. It is suggested to split this file into 10 files, to speedup pre-processing.
 
-## Creating the chr-by-chr files ##
+### Creating the chr-by-chr files ###
 Before using the 'proc' program, it is suggested to split up the text file into
 many different files (at least 10), using 'split -l'.
 
@@ -108,7 +108,7 @@ Usage: proc: <indir> <outdir> <-r or -t>
 Note: for some in-situ datasets, they produce a different formatting. Please refer to the FORMATS
 	file for more information, and look at how the python script is used.
 
-## Running HiSIF ##
+### Running HiSIF ###
 
 Program: HiSIF - HiC Significant Interaction Fragments
 Version: 1.0.0
