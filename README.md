@@ -8,32 +8,18 @@ to extract fit parameters of the CTS interactions. A small C tool is provided to
 supports all of the available three Hi-C protocols (Hi-C, TCC and in situ Hi-C). The tool is named from the fact that it is
 designed to find the significant interactions from a given sample of Hi-C reads.
 
-## Citation: ##
+## Citation ##
 Please cite our paper when you use this tool:
 
 Zhou, Y., Cheng, X., Yang, Y., Li, T., Li, J., Huang, T.H., Jin, V.X. (2020) Genome-wide chromatin interactions identify characteristic promoter-distal loops. Genome Medicine. Aug 12;12:69. https://doi.org/10.1186/s13073-020-00769-8
 
 Thank you.
 
-## System Requirements: ##
+## System Requirements ##
 Operating System: Linux/Unix
 Cores: at least 32
 RAM: 32GB minimum (will not be able to run in-situ)
 Hard Disk Space: >100GB (more as datasets get larger)
-
-## Experimental: ##
-in-situ protocols are supported, but due to their large nature, will significantly slow down the performance
-of HiSIF. HiSIF already writes most of its data to a file, allowing for it to be one of the lighter weight
-bioinformatics tools. This being said, should a pre-processed dataset be over 90GB, it would be wise to
-limit the number of processes/threads that are running. One process with in-situ can take upwards of 20GB.
-Using the -x switch limits the # of child processes that will take upwards 20GB of RAM. For ex) using -x 4
-will use 4 processes at a time, keeping the RAM usage to around 80GB for those processes. Note: this does not 
-limit the total number of processes for HiSIF, as HiSIF forks often to achieve parallel processing.
-Also please note, the main process takes in the most amount of RAM, so please keep an eye on HiSIF as it runs.
-
-Should HiSIF stop unexpecedly, it most likely went over the RAM limit for your system.
-Please re-run HiSIF using the -m option, which will attempt to save even more RAM at
-the cost of performance.
 
 # Pipeline Overview #
 1) Map using bowtie2 or similar software
@@ -42,7 +28,7 @@ the cost of performance.
 4) use the 'proc' tool to sort these text files, producing a directory of chr files
 5) use HiSIF with specific parameters
 
-## Install HiSIF: ##
+## Install HiSIF ##
 
    Simply download the .zip of this project, cd into the unzipped directory, and type make.
 
@@ -51,7 +37,7 @@ the cost of performance.
 		2) HiSIF - binary for algorithm
 
 ## Quick Start ##
-   
+
    After configuration file config_hisif.txt is changed as necessary, perform the following:
    -------------------------------------------
    	chmod 755 runhisif.sh
