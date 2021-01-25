@@ -175,3 +175,17 @@ successfully performing.
 
 IF too many reads overburden the memory, the segmentation fault error will occur. Please run HiSIF with chromosomes individually to reduce the memory requirements.
 
+4. How to convert HDF5 data to HISIF?
+
+There are a lot of public tools convert HDF5 data to python dictionary, you can refer to the links:
+
+https://docs.h5py.org/en/stable/
+https://pypi.org/project/H5dict/
+https://pypi.org/project/hdfdict/
+
+After you get the python dictionary, then transfer them to the following 6-column text file:
+
+chr1 pos1 strand1 chr2 pos2 strand2
+
+chr1/chr2 are chromosomes, pos1/pos2 are mapped genomic loci. Please note strand is 1 for positive strand and 0 for negative strand. Each chromosome need only the number and chrX is 23 and chrY is 24. That means chr1/chr2 must be 1-24.
+
