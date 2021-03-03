@@ -189,3 +189,13 @@ chr1 pos1 strand1 chr2 pos2 strand2
 
 chr1/chr2 are chromosomes, pos1/pos2 are mapped genomic loci. Please note strand is 1 for positive strand and 0 for negative strand. Each chromosome need only the number and chrX is 23 and chrY is 24. That means chr1/chr2 must be 1-24.
 
+5. Run only one chromosome with HiSIF but error?
+
+If you just only run one chromosome with HISIF, please also make the empty file for other chromosomes. You can run the shell like the following:
+
+###Linux Shell to make all empty files
+for chrno in $(seq 2 23)
+do
+touch chr${chrno}.tmp
+done
+
