@@ -195,7 +195,10 @@ If you just only run one chromosome with HISIF, please also make the empty file 
 
 ###Linux Shell to make all empty files
 for chrno in $(seq 2 23)
+
 do
+
 touch chr${chrno}.tmp
+
 done
 
