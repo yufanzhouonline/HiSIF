@@ -36,6 +36,12 @@ Hard Disk Space: >100GB (more as datasets get larger)
 		1) proc - used for preprocessing of data
 		2) HiSIF - binary for algorithm
 
+## Run the example data
+
+Please follow the instruction on the folder of example to run HiSIF for an example data.
+
+https://github.com/yufanzhouonline/HiSIF/tree/master/HiSIF_V1.00/example
+
 ## Quick Start ##
 
    After configuration file config_hisif.txt is changed as necessary, perform the following:
