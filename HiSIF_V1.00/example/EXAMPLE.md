@@ -15,14 +15,10 @@ Please change the path of HiSIF and hg19.HindIII.bed to your own
 Please run the command as follows
 
 
-bin/HiSIF \
-                -g genome/hg19 \
-                -c resources/hg19.HindIII.bed \
-                -w 36 500 20000 \
-                -p 1 29 \
-                -t 1 \
-                -i 2 \
-                hESC
+
+bin/HiSIF -g genome/hg19 -c resources/hg19.HindIII.bed -w 36 500 20000 -p 1 29 -t 1 -i 2 hESC
+
+
 
 Please refer to the results on the folder of Results
 
