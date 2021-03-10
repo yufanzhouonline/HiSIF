@@ -12,7 +12,7 @@ Please change the folder of HG19 genome to your own
 
 Please change the path of HiSIF and hg19.HindIII.bed to your own
 
-Please run the command as follows
+Please then run the following command:
 
 
 
