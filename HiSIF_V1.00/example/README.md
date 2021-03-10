@@ -6,7 +6,7 @@ Zhao H, Lobanenkov VV, Ecker JR, Thomson JA, Ren B.
 Chromatin architecture reorganization during stem
 cell differentiation. Nature. 2015;518(7539):331–6.
 
-Please run gzip -d chr22.tmp.gz on the folder of hESC
+Please run tar -zxvf hESC.tar.gz to extract the example data
 
 Please change the folder of HG19 genome to your own
 
