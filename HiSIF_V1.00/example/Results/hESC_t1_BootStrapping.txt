@@ -1,0 +1,6 @@
+Lamda1	Lamda2	Alpha1	Alpha2
+23			199			0.0590171	0.940983
+22			199			0.0562417	0.943758
+Final Quartile Values
+
+22			199			0.0576294	0.942371
