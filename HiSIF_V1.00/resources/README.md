@@ -1,4 +1,4 @@
-Please unzip all file with the command: gzip -d *.gz
+Please unzip all files with the command: gzip -d *.gz
 
 Please then combine MboI files before usuage with the cat command:
 
