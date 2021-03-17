@@ -8,6 +8,11 @@ to extract fit parameters of the CTS interactions. A small C tool is provided to
 supports all of the available three Hi-C protocols (Hi-C, TCC and in situ Hi-C). The tool is named from the fact that it is
 designed to find the significant interactions from a given sample of Hi-C reads.
 
+Please refer to the following links for the usuage:
+
+https://github.com/yufanzhouonline/HiSIF
+
+
 ## Citation: ##
 Please cite our paper when you use this tool:
 
