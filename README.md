@@ -30,7 +30,7 @@ Hard Disk Space: >100GB (more as datasets get larger)
 
 ## Install HiSIF ##
 
-   Simply download the .zip of this project, cd into the unzipped directory, and type make.
+   Simply download the .zip of this project, "unzip" the zip file, "cd" into the unzipped directory, and type "make".
 
    This will create 2 executables in the bin directory:
 		1) proc - used for preprocessing of data
