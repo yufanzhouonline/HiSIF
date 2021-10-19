@@ -200,6 +200,7 @@ chr1/chr2 are chromosomes, pos1/pos2 are mapped genomic loci. Please note strand
 If you just only run one chromosome with HISIF, please also make the empty file for other chromosomes. You can run the shell like the following:
 
 ###Linux Shell to make all empty files
+
 for chrno in $(seq 1 23)
 
 do
