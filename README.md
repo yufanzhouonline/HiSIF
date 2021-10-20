@@ -160,8 +160,10 @@ All results are prefixed with (SAMPLE)_t(THRESHOLD)_, threshold could be 1, 1.5,
 
 	(SAMPLE)_t(THRESHOLD)_randomDisProb.txt: random distribution probability of sequencing reads
 
+-------------------------------------------------------------------------------------
 ## Troubleshooting ##
 
+-------------------------------------------------------------------------------------
 1. When proc is running, there is maybe an error:
 
 Error readInteractingRegions:: read error.
@@ -169,7 +171,7 @@ Error readInteractingRegions:: read error.
 		
 This is the system reminding of reading the current directory, which does not affect successfully performing.
 
-	
+-------------------------------------------------------------------------------------
 2. When HiSIF is running, there are maybe some errors like:
 
 Error: could not read the first line
@@ -178,12 +180,12 @@ Error: could not read the first line
 This is the system reminding of reading some sub-directories in the reference genome,  which does not affect
 successfully performing.
 
-	
+-------------------------------------------------------------------------------------
 3. Error of “Segmentation fault”:
 
 IF too many reads overburden the memory, the segmentation fault error will occur. Please run HiSIF with chromosomes individually to reduce the memory requirements.
 
-	
+-------------------------------------------------------------------------------------
 4. How to convert HDF5 data to HISIF?
 
 There are a lot of public tools convert HDF5 data to python dictionary, you can refer to the links:
@@ -198,7 +200,7 @@ chr1 pos1 strand1 chr2 pos2 strand2
 
 chr1/chr2 are chromosomes, pos1/pos2 are mapped genomic loci. Please note strand is 1 for positive strand and 0 for negative strand. Each chromosome need only the number and chrX is 23 and chrY is 24. That means chr1/chr2 must be 1-24.
 
-	
+-------------------------------------------------------------------------------------
 5. Run only one chromosome with HiSIF but error?
 
 If you just only run one chromosome with HISIF, please also make the empty file for other chromosomes. You can run the shell like the following:
@@ -213,7 +215,7 @@ touch chr${chrno}.tmp
 
 done
 
-	
+-------------------------------------------------------------------------------------
 6. Can HiSIF be used for non-human organism such as mouse, rat and so on?
 
 Yes. HiSIF can be used for any kinds of organism.
