@@ -160,7 +160,7 @@ All results are prefixed with (SAMPLE)_t(THRESHOLD)_, threshold could be 1, 1.5,
 
 	(SAMPLE)_t(THRESHOLD)_randomDisProb.txt: random distribution probability of sequencing reads
 
--------------------------------------------------------------------------------------
+
 ## Troubleshooting ##
 
 -------------------------------------------------------------------------------------
