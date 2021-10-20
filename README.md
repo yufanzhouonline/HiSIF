@@ -209,3 +209,34 @@ touch chr${chrno}.tmp
 
 done
 
+6. Can HiSIF be used for non-human organism?
+
+Yes. HiSIF can be used for any kinds of organism.
+
+If you run for non-human organism, you have to follow the instruction of "Customized Running" but not "Quick Start".
+
+There are three steps to run HiSIF in customized mode:
+
+    1. Pre-Processing
+
+    2. Creating the chr-by-chr files
+
+    3. Running HiSIF
+
+On the first step of preprocessing, transfer BAM/SAM files to 6-column text file by yourself:
+
+chr1 pos1 strand1 chr2 pos2 strand2
+
+Strand is 1 for positive strand and 0 for negative strand. Each chromosome need only the number and chrX is 23 and chrY is 24 for human. Similarly, 1, 2, 3, ... for other organism.
+	
+Importantly, follow the following two rules for non-human organism:
+
+    1. All chromosomes need to be changed to numbers: 1, 2, 3, ...
+
+    2. If use non-human data, the bed files of enzyme digestion sites (like hindIII.Hg19.HiCPLD.bed for human data placed under the folder of resources) have to be prepared before HiSIF is used.
+	
+    HiC-Pro Digest Genome tool could make bed files from genome, please refer to:
+	
+    https://nservant.github.io/HiC-Pro/UTILS.html#digest-genome-py
+
+
